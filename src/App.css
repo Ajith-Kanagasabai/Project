@@ -1,0 +1,246 @@
+.container {
+    width: 100%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-left: 125px;
+}
+
+.menu-bar {
+    background-color: white;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    float: center;
+    margin-top: 60px;
+    margin-left: 125px;
+}
+
+.menu-bar li {
+    display: inline;
+    padding: 20px;
+}
+
+.menu-bar li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.menu-bar li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.login-register {
+    float: right;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.login-register a {
+    color: blue;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.login-register a:hover {
+    color: black;
+}
+
+.icon {
+    size: 70;
+    color: blue;
+    margin-right: 10px;
+}
+
+.banner {
+    background-image: url("https://img.freepik.com/free-photo/side-view-doctor-writing-prescription_23-2148231339.jpg?w=996&t=st=1710312669~exp=1710313269~hmac=f8eef71ad4e38d4bd319144a840ef6718e677cd2ac99efb73c7898657e729f98");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 620px;
+    border-top: 5px solid rgb(96, 140, 229);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading {
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 145px;
+}
+
+.content {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.login {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+}
+
+.button3 {
+    float: left;
+    border-radius: 25px;
+    padding: 15px;
+    margin-left: 30%;
+}
+
+.button4 {
+    float: right;
+    border-radius: 25px;
+    padding: 15px;
+    margin-right: 30%;
+}
+
+.login a {
+    float: center;
+    color: rgb(21, 21, 248);
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 12%;
+    margin-right: 11%;
+}
+
+.login a:hover {
+    color: rgb(23, 16, 81);
+    text-decoration: underline;
+}
+.welcome, .Blog, .Candidate, .Clients, .Contact, .What {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 610px;
+    border-top: 5px solid rgb(96, 140, 229);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top : 10px;
+}
+.welcome h1, .Blog h1, .Candidate h1, .Clients h1, .Contact h1, .What h1 {
+    margin-top: 15%;
+    margin-bottom: 2%;
+}
+.welcome h3, .Blog h3, .Candidate h3, .Clients h3, .Contact h3, .What h3  {
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+.welcome {
+    background-image: url("https://img.freepik.com/free-photo/nurse-wearing-uniform-stethoscope-making-romantic-heart-gesture-with-smile-face-standing-isolated-white_141793-19344.jpg?t=st=1710321419~exp=1710325019~hmac=2ecede9e9fefb791517c08af7564437ab789494b7e4cca6907b017c06d9d2d7e&w=996");
+    color:white;
+}
+.Blog {
+    background-image: url("https://img.freepik.com/free-photo/dentist-showing-teeth-x-ray-reviewing-it-with-nusre-doctor-assistant-working-modern-crowded-stomatological-clinic-patients-sitting-chairs-reception-filling-dental-forms-waiting_482257-3673.jpg?t=st=1710322680~exp=1710326280~hmac=c22e8ae2e610d4d8c3cf2fc19d201e6625a231c6b06a0da012ca7648214d634f&w=1380");
+    color:white;
+}
+
+.Candidate {
+    background-image: url("https://img.freepik.com/free-photo/senior-man-talking-doctor-who-is-reading-medical-test-results-while-being-home-visit_637285-1358.jpg?t=st=1710322772~exp=1710326372~hmac=032c33a1d565f27dda74461262947deaa02a2d56a29cc455b9a61e2880719ecf&w=996");
+    color:white;
+}
+.Clients {
+    background-image: url("https://img.freepik.com/free-photo/medical-theme-group-doctors-meeting-reception-diagnostic-center-hospital_627829-6541.jpg?t=st=1710322631~exp=1710326231~hmac=a23441f334a730552f9473eaa1e80b73257211a4a0c8ed5bb921c3397c6015a8&w=996");
+    color:black;
+}
+.What {
+    background-image: url("https://img.freepik.com/free-photo/female-doctor-examining-sick-patient-with-stethoscope-while-male-doctor-analyzing-reports-hospital_662251-3015.jpg?t=st=1710322546~exp=1710326146~hmac=2c563c85e068d748b0d5ab945ab76ddd10252f54de3133ecbec880ace4f1ad6d&w=996");
+    color:blue;
+}
+.Contact {
+    background-image: url("https://img.freepik.com/free-photo/front-view-young-female-doctor-with-stethoscope-pointing-something-yellow-wall_179666-29107.jpg?t=st=1710322859~exp=1710326459~hmac=53f26bfed43e1694acab289e0bbef47b76f293768d9579fb24270ec19f4900c5&w=996");
+    color:white;
+}
+.header1 {
+    width: 100%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo1 {
+    float: left;
+    margin-left: 6%;
+}
+
+.menu-bar1 {
+    margin-left: 9%;
+    background-color: white;
+}
+
+.menu-bar1 ul {
+    list-style-type: none;
+    float: center;
+    margin-top: 60px;
+}
+
+.menu-bar1 li {
+    display: inline;
+    padding: 20px;
+}
+
+.menu-bar1 li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.menu-bar1 li a:hover {
+    color: black;
+    text-decoration: none;
+}
+.form-container {
+    max-width: 400px;
+    height: 250px;
+    margin-top: 3%;
+    margin-left:36%;
+    padding: 20px;
+    border-top: 5px solid blue;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  .form-container1 {
+    max-width: 400px;
+    height: 350px;
+    margin-top: 3%;
+    margin-left:36%;
+    padding: 20px;
+    border-top: 5px solid blue;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  .form-container h2 {
+    margin-top: 0;
+  }
+  
+  input[type="name"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
